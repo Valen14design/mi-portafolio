@@ -31,6 +31,36 @@
     color: white;
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .9em;  
+}
+.add-cart-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 60px; 
+    background-color:rgb(240, 184, 63);
+}
+.add-cart-2-span{
+    background-color:transparent;
+    color: white;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .9em;
+}
+.add-cart-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 60px; 
+    background-color:rgb(109, 36, 244);
+}
+.add-cart-3-span{
+    background-color:transparent;
+    color: white;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: .9em;
 }
 p{
