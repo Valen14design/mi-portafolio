@@ -1,0 +1,60 @@
+.main-box{
+display: flex;
+justify-content: center;
+height: 100vh;
+align-items: center;
+}
+table{
+    border-collapse: collapse;
+    font-family:sans-serif;
+    border-radius:20px  ;
+}
+th,td {
+    border: 1px solid rgb(253, 249, 249);
+    padding: 10px 25px ;
+    text-align: center;
+}
+.check-style{
+    color: rgb(13, 216, 24);
+}
+.error-style{
+    color: rgb(255, 5, 5)
+}
+.gold{
+    background-color: goldenrod;
+    color: white;
+}
+.basic{
+    background-color: rgb(12, 193, 233);
+    color: white;
+}
+.class{
+    background-color :darkcyan;
+    color:white;
+    border-top-left-radius: 20px;
+}
+.Platino{
+    background-color:rgb(215, 149, 82) ;
+    color: white;
+    border-top-right-radius: 10px;
+}
+.silver{
+    background-color: rgb(236, 91, 224);
+    color: white;
+}
+.class1{
+    background-color :darkcyan;
+    color:white;
+}
+.class2{
+    background-color :darkcyan;
+    color:white;
+}
+.class3{
+    background-color :darkcyan;
+    color:white;
+}
+.TT{
+    border: 1px solid rgb(255, 251, 251);
+    background-color:rgb(230, 226, 224) ;
+}

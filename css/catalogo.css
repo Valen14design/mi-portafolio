@@ -5,20 +5,25 @@
 }
 .main-box {
     height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    align-items: flex-start;
+    justify-content: center;
 }
 .box-style {
-    width:380px;
+    width:350px;
     height: 460px;
-    margin: top 50px;
     background-color:rgb(255, 255, 255);
-    margin: 90px auto;
+    margin: 0 40px;
+
 }
 .product-box{
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height:140px;
     background-color :rgb(242, 242, 242);
-    margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
 }
 .img-style {   
     width: 80%;
