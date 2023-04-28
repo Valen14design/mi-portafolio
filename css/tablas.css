@@ -10,7 +10,7 @@ table{
     border-radius:20px  ;
 }
 th,td {
-    border: 1px solid rgb(253, 249, 249);
+    border: 1px solid white;
     padding: 10px 25px ;
     text-align: center;
 }
@@ -57,4 +57,14 @@ th,td {
 .TT{
     border: 1px solid rgb(255, 251, 251);
     background-color:rgb(230, 226, 224) ;
+}
+.class5{
+    background-color :darkcyan;
+    color:white;
+    border-bottom-left-radius: 20px;
+}
+.TT1{
+    border: 1px solid rgb(255, 251, 251);
+    background-color:rgb(230, 226, 224) ;
+    border-bottom-right-radius: 20px;
 }
