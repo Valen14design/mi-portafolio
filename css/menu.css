@@ -24,7 +24,6 @@ nav{
     border-right: white;
     width: 120px;
     line-height: 36px;
- 
 }
 .apple:hover{
     border-bottom: 2px solid rgb(69, 69, 69);
@@ -55,4 +54,5 @@ nav{
     cursor: pointer;
     color: rgb(48, 48, 48);
     font-size: 1.2em;
+    
 }
