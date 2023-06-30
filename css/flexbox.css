@@ -1,0 +1,135 @@
+*{
+    font-family: sans-serif;
+}
+h1{
+    text-align: center   
+} 
+.box-cont{
+    background-color: goldenrod;
+    gap: 20px;
+}
+.box-1 {
+    display: flex;       
+    flex-direction: column;
+}
+.box-2{
+    display: flex;
+    flex-direction: row;
+}
+.box-3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-4{
+    display: flex;
+    flex-wrap: nowrap   ;
+}
+.box-5{
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+.box-gen {
+    background-color: darkcyan;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    font-size: 1.8em;
+    margin-right: 20px;
+}
+.box-main-wrap{
+gap: 20px;
+height: 280px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+overflow-x:scroll ;
+overflow-y: hidden;
+width: 70%;
+margin: 0 auto;
+}
+.box-6{
+    display: flex;
+    justify-content:space-between;
+}
+.box-7{
+    display: flex;
+    justify-content: space-around;
+}
+.box-8{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-9{
+    display:flex ;
+    align-items: flex-start;
+    justify-content: center;
+}
+.box-heigth{
+    height: 500px;
+    gap: 50px;
+}
+.box-10{
+    display:flex ;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.box-11{
+    display:flex ;
+    align-items: flex-end;
+    justify-content: center;
+    .box-gens1{
+        background-color:   
+        rgb(79, 235, 235);
+    width: 40px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    font-size: 1.8em;
+    margin-right: 20px;
+    }
+    
+.box-gens2{
+    background-color: rgb(217, 130, 104);
+    width: 40px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    font-size: 1.8em;
+    margin-right: 20px;
+}
+.box-gens3{
+    background-color: darkcyan;
+    width: 40px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    font-size: 1.8em;
+    margin-right: 20px; 
+}
+.box-gens4{
+    background-color: rgb(134, 205, 118);
+    width: 40px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    font-size: 1.8em;
+    margin-right: 20px; 
+}
+}
+.box-heigth1{
+    height: 500px;
+    gap: 5px;
+}
