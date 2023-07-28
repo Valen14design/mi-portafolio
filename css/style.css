@@ -1,14 +1,14 @@
 h1 {
-    font-size: 5em;
+    font-size: 8em;
     color: rgb(17, 79, 222);
     text-align: center;
 }
 h2{
-    font-size: 3em;
+    font-size: 5em;
     text-align: center;
     color: rgb(229, 130, 55);
 }
-h3{ font-size: 1em;
+h3{ font-size: 3em;
     text-align:justify;
     color: rgb(3, 3, 3);
 }
