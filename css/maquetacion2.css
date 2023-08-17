@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, sans-serif;
+    background-color: black;
 }
 header{
     width: 100%;
     height: 100px;
     display: grid;
     grid-template:"logo menu" 100px/
-                    150px 1fr;
+        150px 1fr;
 }
 .logo{
    background-color: black;
@@ -20,25 +21,24 @@ header{
 .menu{
     width: 100%;
     height: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     grid-area: menu;
     justify-content: right;
 }
-.main-content{
+.main-contents{
     width: 100%;
     height: 600px;
-    display: grid;
     column-gap: 80px;
+    display: grid;
     row-gap:40px ;
-    grid-template: "img-principal   img-principal    img-principal    img-principal  img-principal"   auto 
-              "empty-left             article-1        article-2         article-3    empty-rigth"      500px 
-              "empty-left             article-4         article-5       article-6     empty-rigth"     500px /
-                 1fr            350px              350px          350px          1fr;
+    grid-template: "img-principal   img-principal    img-principal    img-principal   img-principal"   auto 
+                    "empty-left      article-1        article-2        article-3      empty-rigth"      500px 
+                    "empty-left      article-4        article-5        article-6      empty-rigth"     500px /
+                       1fr            350px              350px          350px          1fr;
 }
 .style-box{
-    color: rgb(0,0,0);
+    color:white;
     display:flex;
-    justify-content: center;
     align-items: center;
     font-size:2em;
     font-weight: 900;
@@ -62,6 +62,7 @@ header{
     grid-area:article-6 ;
 }
 .article{
+    color: white;
     width: 100%;
     height: 350px;
 }
@@ -74,10 +75,10 @@ header{
 }
 .img-fondo-grande {
     height: 100%;
-    width: 100%;
+    width: 3000px
 }
 .img-fondo{
-    width: 100%;
+    width: 350px;
     height: 350px;
 }
 .img-logo{
@@ -104,9 +105,52 @@ header{
 .menu-bar{
     display: none;
 }
+@media screen and (max-width:1500px) {
+    .main-menu {
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.445);
+        list-style: none;
+        text-align: center;
+        position: fixed;
+        width: 60%;
+        right: -70%;
+        transition: right 400ms;
+        border-radius: 10px 0px 0px 10px;
+     }
+     .main-menu-block {
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.445);
+        list-style: none;
+        text-align: center;
+        position: fixed;
+        width: 60%;
+        right: 0;
+        transition: right 400ms;
+        border-radius: 10px 0px 0px 10px;
+     }
+     .item-style {
+        text-align: right;
+        display: block;
+        border-radius: 0px 40px 40px 0px;
+     }
+     .img-logo {
+        align-items: center;    
+     }
+     .menu-bar {
+        display: inline-block;
+        color: rgb(250, 250, 250);
+        text-align: right;
+        padding-top: 10px;
+        margin-right: 20px;
+        font-size: 1.5em;
+     }
+     .menu-bar:hover {
+        cursor: pointer;
+     }
+}
 
  @media screen and (max-width:1390px) {
-    .main-contents {
+    .main-contents{
         display: grid;
         grid-template: "img-principal img-principal img-principal  img-principal" auto
                         "empty-left    article-1   article-2         empty-right" 500px   "empty-left  article-3   article-4  empty-right" 500px  "empty-left  article-5   article-6         empty-right" 500px /
@@ -122,8 +166,7 @@ header{
         height: 500px;
     }
     }
-
-   
+ 
   @media screen and (max-width:960px) {
     .main-contents {
         column-gap: 0;
