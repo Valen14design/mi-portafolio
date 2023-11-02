@@ -199,4 +199,23 @@ button:hover{
         width: 155%;
     }
  }
+ .container{
+    
+ }
  
+ .box-dir {
+    width: 500px;
+    height: 600px;
+    border: 3px solid rgb(172, 78, 215);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: #3d535f;
+ }
+
+ .box-dir:hover{
+    border:3px solid rosybrown;
+ }
