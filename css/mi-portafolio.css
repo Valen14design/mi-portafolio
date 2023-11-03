@@ -5,7 +5,7 @@
     font-family: Poppins,sans-serif;
    }
    body{
-  overflow: hidden; 
+
    }
    .container{
        width: 100%;
@@ -87,6 +87,7 @@ text-transform: capitalize;
     background: linear-gradient(45deg,#7f00ff,pink);
     animation: object2 6s linear infinite;
 }
+
 @keyframes object1 {
     50%{
         left: -13%;
@@ -199,9 +200,9 @@ button:hover{
         width: 155%;
     }
  }
- .container{
+/*  .container{
     
- }
+ } */
  
  .box-dir {
     width: 500px;
@@ -219,3 +220,103 @@ button:hover{
  .box-dir:hover{
     border:3px solid rosybrown;
  }
+  section{
+    max-width:900px ;
+    margin: auto;
+    height: 90vh;
+    position: relative;
+    padding: 0 30px;
+ }
+ #portafolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ #portafolio hr {
+    width: 50px;
+    border: 2px solid #7f00ff;
+    margin-bottom: 10px;
+ }
+ #portafolio.fila{
+    display: flex;
+    margin: 15px auto;
+    justify-content: space-between;
+
+ }
+ #portafolio.fila.proyecto{
+ border-radius: 20px 20px 20px 20px;
+ margin: 0 10px;
+ position: relative;
+overflow: hidden;
+ }
+ #portafolio.fila.proyecto img{
+    width: 100%;
+    filter: grayscale(1);
+    object-fit: cover;
+    transition: 5s;
+ }
+ #portafolio.fila.proyecto:hover img{
+    filter: grayscale(0);
+ }
+ #portafolio.fila.proyecto.info{
+    position: absolute;
+    left: 0;
+    background-color: #3d535f;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    opacity: 0;
+    bottom: -40px;
+    transition: .5s;
+
+ }
+ #portafolio.fila.proyecto:hover.info{
+    opacity: 1;
+    bottom: 0;
+ }
+
+ .indicador.selector{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #3d535f;
+ }
+ .indicador.linea{
+    width: 1px;
+    margin: auto;
+    background-color: #3d535f;
+ }
+ .pintado {
+    background-color: #7f00ff;
+ }
+
+ /* Proyectos */
+/*  .indicador{ */
+    /* position: absolute;
+    right: 0;
+    padding-right: 0; */
+/*  } */
+ .title-mis-proyectos {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 800;
+    color: rgb(64,64,64);
+ }
+ .box-proyectos {
+    margin-top: 50px;
+    width: 100%;
+    /* margin: 0 60px; */
+    display: grid;
+    grid-template: "empty-left proyectos empty-right" /
+                    1fr        1400px    1fr;
+ }
+ .proyectos {
+    grid-area: proyectos;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 50px;
+ }
+ .img-starbucks {
+    width: 400px;
+}
