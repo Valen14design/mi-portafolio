@@ -59,7 +59,7 @@ text-transform: capitalize;
 .wrapper{
     display: flex;
     width: 100%;
-    height: calc(100vh - 80px);
+    /* height: calc(100vh - 80px); */
     justify-content: center;
     align-items: center;
     padding: 0 10%;
@@ -319,4 +319,98 @@ overflow: hidden;
  }
  .img-starbucks {
     width: 400px;
+}
+@media only screen and (max-width: 1420px) {
+    .wrapper{
+        display: flex;
+        /* width: 50%; */
+        /* height: calc(100vh - 80px); */
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 10%;
+        overflow: hidden;
+    }
+    .wrapper::before{
+        position: absolute;
+        content: "";
+        /* height: 600px; */
+        width: 600px;
+        border-radius: 50%;
+        left: -12%;
+        top: 40%;
+        background: linear-gradient(45deg,#7f00ff,pink);
+        animation: object1 6s linear infinite;
+    }
+    .wrapper::after{
+        position: absolute;
+        content: "";
+        /* height: 200px; */
+        width: 200px;
+        border-radius: 50%;
+        left:35%;
+        top: 12%;
+        background: linear-gradient(45deg,#7f00ff,pink);
+        animation: object2 6s linear infinite;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .cols {
+        width: 90%;
+    }
+    .multitext {
+        font-size: .6em;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .cols {
+        /* position: absolute;
+        width: 100%; */
+    }
+    .cols1 {
+
+    }
+    .multitext {
+        font-size: .5em;
+    }
+    .wrapper{
+        display: flex;
+        width: 100%;
+        /* height: calc(100vh - 80px); */
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 0;
+        overflow: hidden;
+    }
+    .wrapper::before{
+        position: absolute;
+        content: "";
+        /* height: 600px; */
+        width: 100%;
+        border-radius: 50%;
+        top: 40%;
+        background: linear-gradient(45deg,#7f00ff,pink);
+        animation: object1 6s linear infinite;
+    }
+    .wrapper::after{
+        position: absolute;
+        content: "";
+        /* height: 200px; */
+        width: 100%;
+        border-radius: 50%;
+        left:0;
+        top: 12%;
+        background: linear-gradient(45deg,#7f00ff,pink);
+        animation: object2 6s linear infinite;
+    }
+    .imgbox {
+        display: flex;
+        justify-content: center;
+    }
+    .img-valentina {
+        position: absolute;
+        left: 0;
+        margin-left: 0;
+    }
 }
